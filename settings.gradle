@@ -1,3 +1,4 @@
+include ':googlesdk'
 include ':app_auth'
 include ':app'
 rootProject.name = "novel"
