@@ -1,3 +1,4 @@
+include ':facebooksdk'
 include ':googlesdk'
 include ':app_auth'
 include ':app'

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84456813496",
+    "firebase_url": "https://novel-skill.firebaseio.com",
+    "project_id": "novel-skill",
+    "storage_bucket": "novel-skill.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84456813496:android:33fe1e6a3c52467a7f554d",
+        "android_client_info": {
+          "package_name": "com.able.novel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84456813496-0qsovgrfnsmfsip35pbqab5ppj308451.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.able.novel",
+            "certificate_hash": "beae0ec66cb70bb0c462595ce00a6203a575e5b1"
+          }
+        },
+        {
+          "client_id": "84456813496-fqmpq5fesqq6je2n4985qgr38vgruo0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTD6zSP7MFzqAjYid11oQ7YkXVk77Y6Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84456813496-fqmpq5fesqq6je2n4985qgr38vgruo0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

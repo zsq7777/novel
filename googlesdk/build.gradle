@@ -33,4 +33,18 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    //核心SDK ，提供 google Analytics for Firebase
+    implementation 'com.google.firebase:firebase-core:17.4.4'
+    //身份验证
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    //firestore
+    implementation 'com.google.firebase:firebase-firestore:21.5.0'
+    //动态链接
+    implementation 'com.google.firebase:firebase-dynamic-links:19.1.0'
+    //远程配置 :（百分比发布的机制发布新功能）
+    //性能监控
+    implementation  'com.google.firebase:firebase-perf:19.0.8'
+    //崩溃报告
+//    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
 }
