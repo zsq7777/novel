@@ -1,0 +1,40 @@
+if (isApp.toBoolean()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: '../config.gradle'
+
+android {
+    compileSdkVersion project.ext.android.compileSdkVersion
+    buildToolsVersion project.ext.android.buildToolsVersion
+    defaultConfig {
+        minSdkVersion project.ext.android.minSdkVersion
+        targetSdkVersion project.ext.android.targetSdkVersion
+        multiDexEnabled true
+    }
+    sourceSets {
+        main {
+            if (isApp.toBoolean()) {
+                manifest.srcFile 'src/main/manifest/AndroidManifest.xml'
+            } else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+        debug {
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+    dependencies {
+        implementation project(path: ':base_library')
+    }
+}
+

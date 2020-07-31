@@ -13,8 +13,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app_auth" />
+            <option value="$PROJECT_DIR$/app_discover" />
+            <option value="$PROJECT_DIR$/app_readcontent" />
+            <option value="$PROJECT_DIR$/base_library" />
             <option value="$PROJECT_DIR$/facebooksdk" />
             <option value="$PROJECT_DIR$/googlesdk" />
+            <option value="$PROJECT_DIR$/library_http" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

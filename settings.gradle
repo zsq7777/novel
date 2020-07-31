@@ -1,3 +1,7 @@
+include ':library_http'
+include ':app_discover'
+include ':app_readcontent'
+include ':base_library'
 include ':facebooksdk'
 include ':googlesdk'
 include ':app_auth'
